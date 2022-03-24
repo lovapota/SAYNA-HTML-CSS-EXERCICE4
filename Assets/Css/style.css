@@ -1,0 +1,60 @@
+/*===============bordure des contenue des box============*/
+.maitso{
+    border: 2px solid green;
+}
+.mena{
+    border: 2px solid red;
+}
+.mavo{
+    border: 2px solid yellow;
+}
+.manga{
+    border: 2px solid blue;
+}
+.voasary{
+    border: 2px solid orangered;
+}
+/*============reset les proprietes par defaut=============*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Far Form Homecoming';
+    src: url(../Typo-FarFromHomecoming.woff2);
+}
+/*======================les variables de couleurs======================*/
+:root{
+    --color1:#B11313;
+    --color1:#F1C530;
+    --color1:#114C92;
+    --color1:#000000;
+    --color1:#FFFFFF;
+}
+/*======================Donne de toute le document======================*/
+h1{
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Far Form Homecoming',Arial, sans-serif;
+}
+h2, h3, p{
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.soustitre{
+    font-size: 16px;
+    font-weight: 500;
+}
+p{
+    font-size: 14px;
+    font-weight: normal;
+}
+/*==============Header=====================*/
