@@ -55,6 +55,7 @@ h3{
 .soustitre{
     font-size: 16px;
     font-weight: 500;
+    color: var(--color5);
 }
 p{
     font-size: 14px;

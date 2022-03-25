@@ -16,116 +16,229 @@
     <link rel="stylesheet" href="../Source/Boostrap/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="../Source/Boostrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../Source/Boostrap/icons-1.8.1/bootstrap-icons.svg">
+<!--==========Java Script on line============-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 <!--==========Police de caractere in google font============-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
 <!--==========================Ma style CSS==============================================-->
-    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="../Css/style.css">
     <link rel="stylesheet" href="../Css/propos.css">
 </head>
 <body>
 <!--===============Header==============-->
     <nav class="maitso contenair-fluid">
-    <div class=" mena barre row d-none d-md-flex">
-    <!--====Logo web====-->
-        <div class="mavo col-12 col-md-5 offset-0 offset-md-1 ">
-            <img src="Assets/Logo/logo1.png" alt="logo sayna" class="img-fluid me-3">
-            <img src="Assets/Logo/logo2.png" alt="X" class="img-fluid me-3">
-            <img src="Assets/Logo/logo3.png" alt="Logo marvel" class="img-fluid">
-        </div><!--end logo web-->
-    <!--====barre====-->
-        <div class="mavo row offset-1 col-md-4">
-            <P class="voasary col-3 my-auto">Accueil</P>
-            <P class="voasary my-auto  col-3">Adversaires</P>
-            <P class="voasary my-auto col-3">Héros</P>
-            <P class="voasary my-auto col-3">À propos</P>
-        </div><!--end barre-->
-    </div>
-</nav><!--end nav-->
-
-
+        <div class=" mena barre row align-items-center">
+        <!--====Logo in header====-->
+            <div class="mavo col-5 offset-0 offset-md-1 ">
+                <img src="../Logo/logo1.png" alt="logo sayna" class="img-fluid me-3">
+                <img src="../Logo/logo2.png" alt="X" class="img-fluid me-3">
+                <img src="../Logo/logo3.png" alt="Logo marvel" class="img-fluid">
+            </div><!--end logo-->
+            <!--====barre mobile====-->
+            <div class="mavo row col-6 offset-md-1 col-md-4 d-none d-md-flex">
+                <P class="voasary col-3 my-auto">Accueil</P>
+                <P class="voasary my-auto  col-3">Adversaires</P>
+                <P class="voasary my-auto col-3">Héros</P>
+                <P class="voasary my-auto col-3">À propos</P>
+            </div><!--end barre mobile-->
+        <!--====barre mobile====-->
+            <div class="col-5 offset-2">
+                <a href="#demo" class="btn btn-outline text-white d-md-none d-block menu" data-toggle="collapse"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                <div class="mavo row flex-column offset-md-1 col-md-4 collapse"  id="demo">
+                    <P class="voasary col-12 my-auto">Accueil</P>
+                    <P class="voasary my-auto  col-12">Adversaires</P>
+                    <P class="voasary my-auto col-12">Héros</P>
+                    <P class="voasary my-auto col-12">À propos</P>
+                </div><!--end barre mobile-->
+            </div>
+        </div>
+    </nav><!--end nav-->
+<!--===============================================================-->
+<!--============Contenue================-->
+<!--=============Premiere partie toile-->
+    <main class="contenair-fluid toile">
+        <div class="row">
+            <div class="col-11 text">
+                <h1>LA TOILE</h1>
+                <p>Driiing driiing petite antenne</p>
+            </div>
+        </div>
+    </main><!--end toile-->
+<!--=============Deuxieme partie antenne-->
+    <main class="contenair-fluid">
+        <div class="row antenne flex-md-row flex-column">
+            <h1>LA PETITE ANTENNE</h1>
+            <P>Envie de laisser un mot à ton araignée préférée.</P><br>
+            <p>Dépose ton message sur le web et on s'occupe de tout !</p>
+        <!--===Image spider man-->
+            <div class="col-md-6">
+                <img src="../Illustration/img34.png" alt="spider avec iphone" class="img-fluid">
+            </div><!--end image-->
+        <!--===formulaire-->
+            <div class="col-md-6">
+                <form action="message">
+                    <input type="text" placeholder="Nom">
+                    <input type="text" placeholder="Prénom">
+                    <input type="mail" placeholder="Adresse email">
+                    <textarea id="story" name="story"rows="5" cols="70">Message
+                    </textarea>
+                </form>
+                <button type="button" class="btn btn-outline adve">Envoyer</button>
+            </div><!--end formulaire-->
+        </div>
+    </main><!--end antenne-->
+<!--=============Troiseme partie texte=========-->
+    <main class="contenair-fluid texte">
+        <div class="row contenue flex-md-row flex-column">
+            <h1>SAYNA MARVEL</h1>
+            <div class="col-md-6 col-12">
+                <p>
+                    Cree par les legendaires Stan Lee et Steve Ditko, le héros est apparu pour la #15. Avant son intégration dans le Marvel Cinematic Universe (MCU) et ses premières sorties au cinema le personnage jouissait dejà d'une forte popularité auprès des amateurs de super-héros Cela s'explique grâce à un univers riche et un personnage complexe que ton retrouve souvent confronte a des histoires tragiques. Mais le personnage de Spiderman n'est pas la seule explication de ce succès la qualité des comics tient au moins autant à l'homme araignée qu'à ses redoutables ennemis et ses iconiques alliés qui viennent enrichir cet univers singulier.
+                </p>
+            </div>
+            <div class="col-md-6 col-12">
+                <p>
+                    Toute le monde arrive à s'identifier à ce hère et c'est pourquoi nous avons premiere fois en 1962 dans les planches du comics The Amazing Fantasy souhaité faite une collaboration!
+                </p>
+                <p>
+                    Cette collaboration est la première d'une grand série. L'univers de la pop culture est une religion chez SAVNA. Nous aimons à la fois la richesse, mais surtout toutes les valeurs qu'elles dégagent
+                </p>
+                <ul class="text-white">
+                    <li>Partage</li>
+                    <li>Liberté</li>
+                    <li>Entraide</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-12">
+                <p>
+                    Au cours de 60 ans d'histoires, Spidermans vecu des aventures incroyables, certaines sont même restées gravées au pantheon Marvel, Parmi celles-ci, on compte notamment la fameuse saga du clone ou celle du costume nou. mais aussi des crossovers dans lesquels le super-héros tient un rôle majour comme dans Secret Wars ou plus récemment dans Civil War Souvent, et or particulier dans ces grands récits ses ennemis et ses allies viennent enrichir son univers.
+                </p>
+            </div>
+            <div class="col-md-6 col-12">
+                <p>
+                    La pop culture fait désormais partie integrante de notre histoire et nous pouvons nous appuyer dessus pour éveiller rics esprits.
+                </p>
+                <p>
+                    L'univers de SAVNA est tout aussl riche De nombreuses aventures attendents ceux d'entre vous qui cherchent à se dépasser et explorer des frontières inconnus
+                </p>
+                <p>
+                    L'aventure ne fait que commencer alors crampone-toil
+                </p>
+            </div>
+            <h3 class="soustitre">Retrouve nous sur les réseaux !</h3>
+            <div class="col-12">
+                <div class="row bokotra">
+                    <div class="col-md-3 col-6">
+                        <a href="https://www.facebook.com/" class="btn btn-outline adve element">
+                            Faceebook
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <a href="https://www.instagram.com/" class="btn btn-outline adve element">
+                            Instagram
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <a href="https://www.youtube.com/" class="btn btn-outline adve element">
+                            Youtube
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <a href="https://www.marvel.com/" class="btn btn-outline adve element">
+                            marvel.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main><!--end texte-->
+<!--===============================================================-->
 <!--============Foooter================-->
-<footer class="contenair-fluid">
-    <!--=====Barre de navigation footer web=====-->
-    <div class="row align-items-center justify-content-between navi py-5 d-none d-md-flex">
-        <div class="mavo col-1">
-            <p>Mobile App</p>
+    <footer class="contenair-fluid">
+        <!--=====Barre de navigation footer web=====-->
+        <div class="row align-items-center justify-content-between navi py-5 d-none d-md-flex">
+            <div class="mavo col-1">
+                <p>Mobile App</p>
+            </div>
+            <div class="mavo col-2">
+                <p>Politique de confidentialité</p>
+            </div>
+            <div class="mavo col-1">
+                <p>Cookies</p>
+            </div>
+            <div class="mavo col-4">
+                <img src="../Logo/logo1.png" alt="logo sayna" class="img-fluid">
+                <img src="../Logo/logo2.png" alt="logo x" class="img-fluid">
+                <img src="../Logo/logo3.png" alt="logo marvel" class="img-fluid">
+            </div>
+            <div class="mavo col-1">
+                <p>Contact</p>
+            </div>
+            <div class="mavo col-1">
+                <p>Blog</p>
+            </div>
+            <div class="mavo col-2">
+                <button class="dropbtn"> Langue <i class="fa fa-caret-down"></i>
+                </button>
+            </div>
+        </div><!--end barre de navigation web-->
+        <!--=====Barre de navigation footer mobile=====-->
+        <main class="row py-5 d-md-none d-flex navi">
+            <div class="col-6">
+                <ul class="list-unstyled">
+                    <li class="list-item">
+                        Mobile app
+                    </li>
+                    <li class="list-item">
+                        Politique de confidentialité
+                    </li>
+                    <li class="list-item">
+                        Cookies
+                    </li>
+                    <li class="list-item">
+                        Contact
+                    </li>
+                    <li class="list-item">
+                        Blog
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <button class="dropbtn"> Langue <i class="fa fa-caret-down"></i>
+                </button>
+            </div>
+            <div class="col-6 offset-3">
+                <img src="../Logo/logo1.png" alt="logo sayna" class="img-fluid">
+                <img src="../Logo/logo2.png" alt="logo x" class="img-fluid">
+                <img src="../Logo/logo3.png" alt="logo marvel" class="img-fluid">
+            </div>  
+        </main><!--end barre de navigation mobile-->
+        <div class="row flex-column">
+        <!--====Les icones-->
+            <div class="col">
+                <ul class="list-inline d-flex justify-content-center">
+                    <li class="list-inline-item rond me-2">
+                        <img src="../Logo/logof.png" alt="logo sociaux" class="img-fluid">
+                    </li>
+                    <li  class="list-inline-item rond me-2">
+                        <img src="../Logo/logoi.png" alt="logo sociaux" class="img-fluid">
+                    </li>
+                    <li  class="list-inline-item rond me-2">
+                        <img src="../Logo/logoy.png" alt="logo sociaux" class="img-fluid">
+                    </li>
+                    <li  class="list-inline-item rond">
+                        <img src="../Logo/logot.png" alt="logo sociaux" class="img-fluid">
+                    </li>
+                </ul>
+            </div><!--end icones-->
+        <!--====copyrigth-->
+            <div class="col text-center">
+                <p>&copy;SaynaXMarvel, Inc 2022. We love our users!</p>
+            </div><!--end copyrigth-->
         </div>
-        <div class="mavo col-2">
-            <p>Politique de confidentialité</p>
-        </div>
-        <div class="mavo col-1">
-            <p>Cookies</p>
-        </div>
-        <div class="mavo col-4">
-            <img src="Assets/Logo/logo1.png" alt="logo sayna" class="img-fluid">
-            <img src="Assets/Logo/logo2.png" alt="logo x" class="img-fluid">
-            <img src="Assets/Logo/logo3.png" alt="logo marvel" class="img-fluid">
-        </div>
-        <div class="mavo col-1">
-            <p>Contact</p>
-        </div>
-        <div class="mavo col-1">
-            <p>Blog</p>
-        </div>
-        <div class="mavo col-2">
-            <button class="dropbtn"> Langue <i class="fa fa-caret-down"></i>
-              </button>
-        </div>
-    </div><!--end barre de navigation web-->
-    <!--=====Barre de navigation footer mobile=====-->
-    <main class="row py-5 d-md-none d-flex navi">
-        <div class="col-6">
-            <ul class="list-unstyled">
-                <li class="list-item">
-                    Mobile app
-                </li>
-                <li class="list-item">
-                    Politique de confidentialité
-                </li>
-                <li class="list-item">
-                    Cookies
-                </li>
-                <li class="list-item">
-                    Contact
-                </li>
-                <li class="list-item">
-                    Blog
-                </li>
-            </ul>
-        </div>
-        <div class="col-6">
-            <button class="dropbtn"> Langue <i class="fa fa-caret-down"></i>
-            </button>
-        </div>
-        <div class="col-6 offset-3">
-            <img src="Assets/Logo/logo1.png" alt="logo sayna" class="img-fluid">
-            <img src="Assets/Logo/logo2.png" alt="logo x" class="img-fluid">
-            <img src="Assets/Logo/logo3.png" alt="logo marvel" class="img-fluid">
-        </div>  
-    </main><!--end barre de navigation mobile-->
-    <div class="row flex-column">
-    <!--====Les icones-->
-        <div class="col">
-            <ul class="list-inline d-flex justify-content-center">
-                <li class="list-inline-item rond me-2">
-                    <img src="Assets/Logo/logof.png" alt="logo sociaux" class="img-fluid">
-                </li>
-                <li  class="list-inline-item rond me-2">
-                    <img src="Assets/Logo/logoi.png" alt="logo sociaux" class="img-fluid">
-                </li>
-                <li  class="list-inline-item rond me-2">
-                    <img src="Assets/Logo/logoy.png" alt="logo sociaux" class="img-fluid">
-                </li>
-                <li  class="list-inline-item rond">
-                    <img src="Assets/Logo/logot.png" alt="logo sociaux" class="img-fluid">
-                </li>
-            </ul>
-        </div><!--end icones-->
-    <!--====copyrigth-->
-        <div class="col text-center">
-            <p>&copy;SaynaXMarvel, Inc 2022. We love our users!</p>
-        </div><!--end copyrigth-->
-    </div>
-</footer><!--end footer-->
+    </footer><!--end footer-->
 </body>
 </html>

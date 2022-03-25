@@ -1,4 +1,86 @@
-/*===Header*/
-.barre{
+@font-face {
+    font-family: 'Far Form Homecoming';
+    src: url(../Far-From\ Homecoming\ Updated.otf);
+}
+
+/*======================les variables de couleurs======================*/
+:root{
+    --color1:#B11313;
+    --color2:#F1C530;
+    --color3:#114C92;
+    --color4:#000000;
+    --color5:#FFFFFF;
+}
+/*========Toile==========*/
+.toile{
+    background-color: var(--color2);
+    background-image: url(../Illustration/img5.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    transform: rotateY(180deg);
+}
+.text{
+    padding-top: 13%;
+    padding-bottom: 14%;
+    transform: rotateY(180deg);
+}
+.text h1{
+    font-size: 4rem;
+}
+.text p{
+    font-size: 2rem;
+}
+/*=======antenne==========*/
+.antenne{
     background-color: var(--color1);
+    padding: 100px 0;
+}
+input{
+    background-color: var(--color1);
+    border: 2px solid var(--color5);
+    color: var(--color5);
+}
+textarea{
+    background-color: var(--color1);
+    border-radius: 10px;
+    border: 2px solid var(--color5);
+    color: var(--color5);
+}
+/*=======texte==========*/
+.texte{
+    background-color: var(--color3);
+    padding: 50px 0;
+}
+.contenue{
+    width: 90%;
+    margin: auto;
+}
+.element{
+    width: 150px;
+    padding: auto;
+}
+
+
+
+@media screen and (max-width:768px){
+    .text{
+        padding-top: 15%;
+        padding-bottom: 50%;
+    }
+    .text h1{
+        font-size: 2rem;
+    }
+    .text p{
+        font-size: 1.5rem;
+    }
+    .bokotra{
+        flex-wrap: wrap;
+    }
+    .element{
+        width: 300px;
+        padding: auto;
+    }
+    .antenne, .texte{
+        text-align: center;
+    }
 }
