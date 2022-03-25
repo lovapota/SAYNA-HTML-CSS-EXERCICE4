@@ -130,7 +130,7 @@ footer{
 .lange{
     display: flex;
 }
-.dropbtn{
+select{
     border: none;
     padding: 2% 25%;
     border-radius: 25px;

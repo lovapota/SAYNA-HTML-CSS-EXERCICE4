@@ -11,8 +11,79 @@ font-face {
     --color4:#000000;
     --color5:#FFFFFF;
 }
-
+/*===========Header==============*/
 .lova{
-    padding: 50% 0;
+    background-color: var(--color3);
+}
+/*================Heros===============*/
+.hero{
+    background-image: url(../Illustration/img19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22% 0 11% 0;
+}
+/*============Valeurs===========*/
+.valeur{
+    background-color: var(--color3);
+}
+/*============Fondations===========*/
+.fondation{
+    background-image: url(../Illustration/img20.png);
+    background-size: contain;
+    padding: 15% 0 10% 2%;
+}
+/*===========Blabla==============*/
+.blabla{
+    background-color: var(--color3);
+    text-align: justify;
+}
+.sary{
+    position: relative;
+    padding: 0 0 10% 0;
+}
+.io{
+    position: absolute;
+    top:30%;
+    left: 25%;
+
+}
+.sary img{
+    width: 50%;
+}
+/*===========Avengers==============*/
+.avenger{
     background-color: var(--color1);
+}
+/*===========Univers==============*/
+.univers{
+    background-image: url(../Illustration/img33.png);
+    background-size: cover;
+}
+.hipper{
+    background-color: #114b9294;
+}
+/*===Footer===*/
+.rond1{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: var(--color3);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+@media screen and (max-width:768px){
+    .hero{
+        padding: 0 0 20% 0;
+    }
+    .mobile{
+        margin: 2% 0 15% 0;
+    }
+    .sary{
+        position: initial;
+        padding: 0;
+    }
+    .io{
+        position: unset;
+    }
 }
