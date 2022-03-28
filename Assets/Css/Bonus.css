@@ -1,0 +1,15 @@
+/*======================les variables de couleurs======================*/
+:root{
+    --color1:#B11313;
+    --color2:#F1C530;
+    --color3:#114C92;
+    --color4:#000000;
+    --color5:#FFFFFF;
+}
+/*=======Corps du page=========*/
+.bonus{
+    background-image: url(../Illustration/img35.png);
+    background-size: cover;
+    padding-top: 40%;
+    background-position: bottom;
+}

@@ -1,0 +1,31 @@
+/*======================les variables de couleurs======================*/
+:root{
+    --color1:#B11313;
+    --color2:#F1C530;
+    --color3:#114C92;
+    --color4:#000000;
+    --color5:#FFFFFF;
+}
+/*===============Header==============*/
+.hvilain{
+    background-color: var(--color2);
+}
+/*============Vilains=======*/
+.vilain{
+    background-image: url(../Illustration/img7.png);
+    background-size: cover;
+}
+/*==========liste des vilains=========*/
+.lvilain{
+    background-color: var(--color2);
+}
+.ivilain img{
+    width: 100%;
+}
+.fig{
+    margin: 0;
+    border-radius: 0 0 15px 15px;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
