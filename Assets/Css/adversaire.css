@@ -29,3 +29,7 @@
     border-left: 4px solid black;
     border-right: 4px solid black;
 }
+/*=======Footer=========*/
+#wmavo, #mmavo{
+    background-color: var(--color2);
+}

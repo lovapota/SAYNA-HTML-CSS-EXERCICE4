@@ -22,6 +22,12 @@
     background-size: cover;
     padding: 22% 0 11% 0;
 }
+.hlien{
+    color: var(--color5);
+    text-decoration: none;
+    font-family: 'Montserrat', Arial, sans-serif;
+    align-items: center;
+}
 /*============Valeurs===========*/
 .valeur{
     background-color: var(--color3);
@@ -63,6 +69,9 @@
     background-color: #114b9294;
 }
 /*===Footer===*/
+#wbleu, #mbleu{
+    background-color: var(--color3);
+}
 .rond1{
     display: flex;
     align-items:center ;

@@ -131,6 +131,9 @@ footer{
 .lange{
     display: flex;
 }
+#wrouge, #mrouge {
+    background-color: var(--color1);
+}
 select{
     border: none;
     padding: 2% 25%;
