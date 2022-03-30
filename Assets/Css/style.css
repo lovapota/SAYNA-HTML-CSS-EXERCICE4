@@ -167,4 +167,7 @@ select{
     .hspara{
         text-align: center;
     }
+    .inscrire{
+        padding: 8% 0;
+    }
 }
