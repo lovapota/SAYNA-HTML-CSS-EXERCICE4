@@ -7,6 +7,9 @@
     --color5:#FFFFFF;
 }
 /*=======Corps du page=========*/
+.menu{
+    font-size: xx-large;
+}
 .bonus{
     padding-top: 20%;
     background-size: cover;

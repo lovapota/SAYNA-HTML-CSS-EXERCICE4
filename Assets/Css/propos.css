@@ -11,6 +11,10 @@
     --color4:#000000;
     --color5:#FFFFFF;
 }
+/*======Header==========*/
+.menu{
+    font-size: xx-large;
+}
 /*========Toile==========*/
 .toile{
     transform: rotateY(180deg);
@@ -41,6 +45,7 @@ input{
     border: 2px solid var(--color5);
 }
 textarea{
+    width: 550px;
     border-radius: 10px;
     color: var(--color5);
     background-color: var(--color1);
@@ -52,10 +57,7 @@ textarea{
 }
 .element{
     width: 150px;
-    padding: auto;
 }
-
-
 @media screen and (max-width:768px){
     .text{
         padding-top: 50%;
@@ -72,7 +74,6 @@ textarea{
     }
     .element{
         width: 150px;
-        padding: auto;
         margin-bottom: 10px;
     }
     .antenne, .texte{
