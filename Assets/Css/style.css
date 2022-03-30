@@ -1,25 +1,10 @@
-/*===============bordure des contenue des box============*/
-.maitso{
-    border: 2px solid green;
-}
-.mena{
-    border: 2px solid red;
-}
-.mavo{
-    border: 2px solid yellow;
-}
-.manga{
-    border: 2px solid blue;
-}
-.voasary{
-    border: 2px solid orangered;
-}
 /*============reset les proprietes par defaut=============*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*============================Police de caractere=======================*/
 @font-face {
     font-family: 'Far Form Homecoming';
     src: url(../Far-From\ Homecoming\ Updated.otf);
@@ -41,7 +26,7 @@ h1{
     color: var(--color5);
     font-family: 'Far Form Homecoming',Arial, sans-serif;
 }
-h2, h3, p{
+h2, h3, p, a{
     font-family: 'Montserrat', Arial, sans-serif;
 }
 h2{
@@ -58,11 +43,17 @@ h3{
     font-weight: 500;
     color: var(--color5);
 }
-p{
+p, a{
     font-size: 14px;
     font-weight: 400;
     font-weight: normal;
     color: var(--color5);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
 }
 /*==============Header=====================*/
 .barre{
@@ -83,6 +74,9 @@ nav p{
 .btn{
     border-radius: 15px;
 }
+.btn:hover{
+    color: grey;
+}
 .heros{
     font-size: medium;
     color: var(--color1);
@@ -92,6 +86,13 @@ nav p{
     font-size: medium;
     color: var(--color5);
     border: 2px solid var(--color5);
+}
+.hspara{
+    text-align: justify;
+}
+.hsbtn{
+    align-self: flex-end;
+    justify-self: flex-end;
 }
 /*==========Deuxieme partie deviens==============*/
 .devien{
@@ -118,8 +119,16 @@ input{
 .marge{
     margin: 5% 20%;
 }
+.form-check-label{
+    color: var(--color5);
+}
+.poli{
+    font-weight: 600;
+    color: var(--color3);
+    text-decoration: solid;
+}
 /*==========Footer==============*/
-footer{
+.footer{
     background-color: var(--color4);
 }
 .navi{
@@ -142,17 +151,20 @@ select{
     background-color: var(--color1);
 }
 .rond{
+    width: 50px;
+    height: 50px;
     display: flex;
+    border-radius: 50%;
     align-items:center ;
     justify-content: center;
     background-color: var(--color1);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
 }
 
 @media screen and (max-width:768px){
     .inscrire{
         padding: 10% 0;
+    }
+    .hspara{
+        text-align: center;
     }
 }

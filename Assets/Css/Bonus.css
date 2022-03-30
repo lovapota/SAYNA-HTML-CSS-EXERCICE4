@@ -8,8 +8,23 @@
 }
 /*=======Corps du page=========*/
 .bonus{
-    background-image: url(../Illustration/img35.png);
+    padding-top: 20%;
     background-size: cover;
-    padding-top: 40%;
     background-position: bottom;
+    background-image: url(../Illustration/img35.png);
+}
+.bonus h1{
+    font-size: 100px;
+}
+.bonus p{
+    font-size: 75px;
+}
+
+@media screen and (max-width:768px){
+    .bonus h1{
+        font-size: 70px;
+    }
+    .bonus p{
+        font-size: 20px;
+    }
 }

@@ -13,11 +13,11 @@
 }
 /*========Toile==========*/
 .toile{
+    transform: rotateY(180deg);
+    background-position-x: left;
+    background-repeat: no-repeat;
     background-color: var(--color2);
     background-image: url(../Illustration/img5.png);
-    background-repeat: no-repeat;
-    background-position-x: left;
-    transform: rotateY(180deg);
 }
 .text{
     padding-top: 13%;
@@ -32,28 +32,23 @@
 }
 /*=======antenne==========*/
 .antenne{
-    background-color: var(--color1);
     padding: 100px 0;
+    background-color: var(--color1);
 }
 input{
+    color: var(--color5);
     background-color: var(--color1);
     border: 2px solid var(--color5);
-    color: var(--color5);
 }
 textarea{
-    background-color: var(--color1);
     border-radius: 10px;
-    border: 2px solid var(--color5);
     color: var(--color5);
+    background-color: var(--color1);
+    border: 2px solid var(--color5);
 }
 /*=======texte==========*/
 .texte{
     background-color: var(--color3);
-    padding: 50px 0;
-}
-.contenue{
-    width: 90%;
-    margin: auto;
 }
 .element{
     width: 150px;
@@ -61,11 +56,10 @@ textarea{
 }
 
 
-
 @media screen and (max-width:768px){
     .text{
-        padding-top: 15%;
-        padding-bottom: 50%;
+        padding-top: 50%;
+        padding-bottom: 15%;
     }
     .text h1{
         font-size: 2rem;
@@ -77,10 +71,14 @@ textarea{
         flex-wrap: wrap;
     }
     .element{
-        width: 300px;
+        width: 150px;
         padding: auto;
+        margin-bottom: 10px;
     }
     .antenne, .texte{
         text-align: center;
+    }
+    textarea{
+        width: 350px;
     }
 }

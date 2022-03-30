@@ -2,7 +2,6 @@
     font-family: 'Far Form Homecoming';
     src: url(../Far-From\ Homecoming\ Updated.otf);
 }
-
 /*======================les variables de couleurs======================*/
 :root{
     --color1:#B11313;
@@ -17,82 +16,141 @@
 }
 /*================Heros===============*/
 .hero{
-    background-image: url(../Illustration/img19.png);
-    background-repeat: no-repeat;
+    padding: 11% 0 22% 0;
     background-size: cover;
-    padding: 22% 0 11% 0;
+    background-repeat: no-repeat;
+    background-image: url(../Illustration/img19.png);
+}
+.hero .hhtitre{
+    font-size: 80px;
+}
+.hero .parahe{
+    font-size: 20px;
 }
 .hlien{
+    align-items: center;
     color: var(--color5);
     text-decoration: none;
     font-family: 'Montserrat', Arial, sans-serif;
-    align-items: center;
 }
 /*============Valeurs===========*/
 .valeur{
     background-color: var(--color3);
 }
+.hhtitr{
+    font-size: 50px;
+}
+.sous{
+    font-size: 40px;
+}
 /*============Fondations===========*/
 .fondation{
-    background-image: url(../Illustration/img20.png);
-    background-size: contain;
     padding: 15% 0 10% 2%;
+    background-size: cover;
+    background-image: url(../Illustration/img20.png);
 }
 /*===========Blabla==============*/
 .blabla{
-    background-color: var(--color3);
     text-align: justify;
+    background-color: var(--color3);
+}
+.blabla p{
+    margin-bottom: 0;
 }
 .sary{
     position: relative;
     padding: 0 0 10% 0;
 }
 .io{
-    position: absolute;
     top:30%;
     left: 25%;
+    position: absolute;
 
 }
 .sary img{
     width: 50%;
 }
+span{
+    font-weight: 900;
+}
 /*===========Avengers==============*/
 .avenger{
     background-color: var(--color1);
 }
+.feno{
+    font-size: 50px;
+    line-height: 30px;
+    text-align: justify;
+}
 /*===========Univers==============*/
 .univers{
-    background-image: url(../Illustration/img33.png);
     background-size: cover;
+    background-image: url(../Illustration/img33.png);
 }
 .hipper{
+    padding: 50px 0;
     background-color: #114b9294;
+}
+.hipper .titrh{
+    font-size: 1.7rem;
+    text-align: center;
+}
+.hipper .soushero{
+    text-align: right;
+}
+.hipper p{
+    text-align: justify;
 }
 /*===Footer===*/
 #wbleu, #mbleu{
     background-color: var(--color3);
 }
 .rond1{
+    width: 50px;
+    height: 50px;
     display: flex;
+    border-radius: 50%;
     align-items:center ;
     justify-content: center;
     background-color: var(--color3);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
 }
 @media screen and (max-width:768px){
+    *{
+        text-align: center;
+    }
     .hero{
         padding: 0 0 20% 0;
     }
-    .mobile{
-        margin: 2% 0 15% 0;
+    .hero .hhtitre{
+        font-size: 50px;
+        text-align: left;
+        margin: 15px 0 5px 10px;
+    }
+    .hero .parahe{
+        font-size: 15px;
     }
     .sary{
-        position: initial;
         padding: 0;
+        position: initial;
+    }
+    .hhtitr{
+        font-size: 35px;
+    }
+    .sous{
+        font-size: 25px;
+        text-align: left;
+        margin: 0 0 2 50px;
+    }
+    iframe{
+        width: 500px;
+        margin: 30px 0;
     }
     .io{
         position: unset;
+    }
+    .sary img{
+        width: 70%;
+        margin: 5px 0;
+        align-self: center;
     }
 }
