@@ -14,6 +14,9 @@
 .lova{
     background-color: var(--color3);
 }
+.menu{
+    font-size: xx-large;
+}
 /*================Heros===============*/
 .hero{
     padding: 11% 0 22% 0;
